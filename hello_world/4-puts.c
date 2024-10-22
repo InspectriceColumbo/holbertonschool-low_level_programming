@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include IBF<string.h>
+#include <string.h>
 
 /**
 *main - Main function of my project
@@ -12,7 +12,7 @@ int main(void)
 
 	char displayed[52];
 
-	strpcy(displayed, "\"Programming is like building a multilingal puzzle");
+	strcpy(displayed, "\"Programming is like building a multilingal puzzle");
 	puts(displayed);
 	return (0);
 }
