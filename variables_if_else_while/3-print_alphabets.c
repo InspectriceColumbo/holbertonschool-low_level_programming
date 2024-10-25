@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - Prints the alphabet in lowercase.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -10,10 +10,8 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
-	
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		
+
 	putchar('\n');
-	
+
 	return (0);
 }
