@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - prints every min of JB's day 
+ * jack_bauer - prints every min of JB's day
  * starting from 00:00 to 23:59.
  */
 void jack_bauer(void)
