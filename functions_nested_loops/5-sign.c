@@ -2,9 +2,9 @@
 /**
  * print_sign - prints sign of a number
  * n - number whose sign is tb printed
- * Return : 1, print + if n>0 
+ * Return : 1, print + if n>0
  * Return : 0, print 0 if n=0
- * Return: -1, print - if n<0 
+ * Return: -1, print - if n<0
  */
 int print_sign(int n)
 {
