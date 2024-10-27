@@ -2,6 +2,7 @@
 /**
  * _islower - function that checks if char r lc
  * c - char to check
+ * c parameter - checks lc characters
  * Return: 1 = lc char or 0 = uc char
  */
 int _islower(int c)
