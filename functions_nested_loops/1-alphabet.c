@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *print_alphabet : function prints alphabet lc
+ * print_alphabet - function prints alphabet in lc
  *
- *return: (void)
+ * return: (void)
  */
 void print_alphabet(void)
 {
