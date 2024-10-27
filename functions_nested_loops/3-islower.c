@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main function 
+ * main - check the code.
  *
- * Return: return 0 everytime
+ * Return: Always 0.
  */
 int main(void)
 {
