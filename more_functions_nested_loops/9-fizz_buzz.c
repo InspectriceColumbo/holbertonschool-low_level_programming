@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers 1 to 100 but for * of 3, prints 'Fizz' instead of the number
+ *main - prints numbs 1-100 but for * of 3, prints 'Fizz' instead of the numb
  *and for * of 5, prints 'Buzz'.
  * Also for numbers that are * of 3 AND * of 5, prints 'FizzBuzz'.
  * Return: always 0
