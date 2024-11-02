@@ -12,7 +12,7 @@ void rev_string(char *s)
 	while (s[base++])
 		string++;
 
-	for (base = string - 1; base >= string / 2; base++)
+	for (base = string - 1; base = string / 2; base--)
 	{
 		tmp = s[base];
 		s[base] = s[string - base - 1];
