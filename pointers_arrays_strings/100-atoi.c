@@ -2,7 +2,7 @@
 /**
 * _atoi - function that converts a string to an int
 * @s: string 2B converted
-* return: the int value that is the result of the converted string
+* Return: the int value result of the converted string
 */
 int _atoi(char *s)
 {
