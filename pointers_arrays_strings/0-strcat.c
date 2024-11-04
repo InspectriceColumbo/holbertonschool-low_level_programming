@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*_strcat - function that concatenates the string pointed to by @src to the end
-*of the string pointed to by @dest
-*@dest: string 2B appended
-*@src: string 2B concatenated
-* Return: returns a pointer to resulting string @dest
+*_strcat - concatenates the string pointed to by @src to the end of the string pointed to by @dest
+* La fonction lie le string src au string dest. Comment?* En ajoutant/joignant/apposant le string src à la fin du string dest
+*@dest: string 2B concatenated to @src (by @src added to its end)
+*@src: string 2B appended to end of @dest
+* Return: the pointer to the resulting string, i.e @dest
 */
 
 char *_strcat(char *dest, char *src)
