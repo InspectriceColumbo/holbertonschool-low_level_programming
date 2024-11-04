@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcmp - Compares the pointers to two strings
- * @*s1: The pointer to the first string 2B compared
- * @*s2: The pointer to the second string 2B compared
+ * @s1: The pointer to the first string 2B compared
+ * @s2: The pointer to the second string 2B compared
  * The comparison  is  done  using  un‐signed characters
  * Return: always an integer (neg, 0 or pos)
  *If str1 <str2, a negative value: the difference of the first unmatched chars
