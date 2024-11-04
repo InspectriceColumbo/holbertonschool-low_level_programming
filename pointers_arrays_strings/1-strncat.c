@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*_strncat - concatenates the string pointed to by @src to the end of the string pointed to by @dest
-* 
+* _strncat - concatenates the string pointed to by @src to the end of
+* the string pointed to by @dest
 *@dest: string 2B concatenated to @src (by @src added to its end)
 *@src: string 2B appended to end of @dest
-*@n: max amount of @src bytes that will be used (=max number of bytes used from @src)
+*@n: max amount of src bytes 2B used (=max number of bytes used from src)
 *Return: the pointer to the resulting concatenated string, i.e @dest
 */
 
