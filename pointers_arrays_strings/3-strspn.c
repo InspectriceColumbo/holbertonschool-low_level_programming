@@ -5,9 +5,8 @@
  * @accept: the string containing the bytes to be matched against in @s
  * Function calculates the length of the initial segment of @s that
  * consists entirely of bytes in @accept
- * Return: @a :the number of bytes in @s init segment that are part of @accept
+ * Return: a, the number of bytes in @s init segment that are part of @accept
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int a;
@@ -22,11 +21,10 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if (accept[a] == '\0')
+		if (accept[i] == '\0')
 		{
 			return (a);
 		}
-
 	}
 	return (a);
 }
