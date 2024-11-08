@@ -1,1 +1,1 @@
-README recursion in C
+Readme langage C
