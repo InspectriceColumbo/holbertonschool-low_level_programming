@@ -1,30 +1,5 @@
 #include <stdio.h>
-#include "function_pointers.h"
-/**
- * _putchar - prints a char
- * @c : char parameter
- * Return : 0
- */
-int _putchar(char c)
-{
-	_putchar(c);
-	return 0;
-}
-/**
- * print_chars - prints each char of the string @name using _putchar
- * @name: string representing the name 2B printed
- * Return : void
- */
-void print_chars(char *name)
-{
-		while (*name)
-		_putchar(*name);
-		name++;
-	_putchar('\0');
-	_putchar('\n');
-}
-
-#include <stdio.h>
+#include <stdlib.h>
 #include "function_pointers.h"
 /**
  * print_name - takes the string *name & pass it through the function pointed..
@@ -39,8 +14,10 @@ void print_chars(char *name)
  */
 void print_name(char *name, void (*f)(char *))
 {
-	{
-		f(name);
+	if (name == NULL)
+		exit(98);
+	if (*f == NULL)
+		exit(98);
+	{                                                        f(name);
 	}
-	print_name("Name", print_chars);
 }
