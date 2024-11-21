@@ -1,5 +1,5 @@
-#ifndef VARIADIC_FUNCTIONS_H
-#define VARIADIC_FUNCTIONS_H
+#ifndef variadic_functions_h
+#define variadic_functions_h
 
 
 #include <stdio.h>
@@ -13,4 +13,3 @@ void print_all(const char * const format, ...);
 
 
 #endif
-
