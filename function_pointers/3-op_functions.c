@@ -45,7 +45,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - Finds the modulo
+ * op_mod - Finds modulo of two numbers
  * @a: num1
  * @b: num2
  * Return: the remainder of the division of a by b
