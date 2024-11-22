@@ -5,7 +5,7 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters
  * @n: type const unsigned int
- * @...:
+ * @...: variable arguments of type unsigned int
  * Return: Sum of all the parameters. If n == 0, return 0
  */
 int sum_them_all(const unsigned int n, ...)
