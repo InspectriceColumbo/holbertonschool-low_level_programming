@@ -61,11 +61,11 @@ returns the number of characters that are printed (excluding the null byte that 
 .PP
 To print a string:
 .EX /** macro qui marque le début d'un bloc d'exemple */
-_printf("Hello there, %s!\n", "General Kenobi");
+_printf("Hello there... %s!\n", "General Kenobi");
 .EE /** End example, marque la fin du bloque d'exemple et donc de sa mise en forme spécifique */
 Output:
 .EX
-Hello there, General Kenobi!
+Hello there... General Kenobi!
 .EE
 .PP
 To print an integer:
@@ -80,22 +80,22 @@ The answer is 42.
 .PP
 To print a percentage sign:
 .EX
-_printf("I've passed the test with a result of 100%% !\n");
+_printf("Success is 99 %% failure!\n");
 .EE
 Output:
 .EX
-I've passed the test with a result of 100%!
+Success is 99 % failure!
 .EE
 
 .SH ERRORS
 The function returns -1 if:
-.IP (bu 2 /** à finir */
+.IP (bu 2) /** IP: Indented Paragraph: permet de faire liste à puces, càd bullet points, et (bu 2):  */
 The format string is NULL.
-.IP (bu 2
+.IP (bu 2)
 The format string is just a '%' without a valid specifier.
 
 .SH SEE ALSO
 .B printf(3), - standard output formatting function from the C library.
 
-.SH AUTHOR
+.SH AUTHORS
 Written by Colombe Deveaud and Shems Alilat
