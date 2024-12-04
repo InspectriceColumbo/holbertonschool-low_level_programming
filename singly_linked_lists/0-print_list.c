@@ -4,7 +4,7 @@
  * print_list - prints all the elements of a list_t list
  * @h: pointer to the list, h is of type const list_t
  * If str is NULL, print [O] (nil)
- * Return: the number of nodes
+ * Return: (count) i.e the number of nodes
  */
 size_t print_list(const list_t *h)
 {
